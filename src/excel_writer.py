@@ -26,9 +26,14 @@ sheet['Z17'] = get_cell_value(ws['Z7'])
 sheet['AC9'] = get_cell_value(ws['S9'])
 sheet['AC10'] = get_cell_value(ws['AE9'])
 sheet['T13'] = get_cell_value(ws['AD4'])
-sheet['G25'] = get_cell_value(ws['AA13'])
+sheet['F27'] = get_cell_value(ws['AA13'])
 sheet['P33'] = get_cell_value(ws['AD17'])
 sheet['Y33'] = get_cell_value(ws['AD18'])
+sheet['T27'] = get_cell_value(ws['H30'])
+sheet['P29'] = get_cell_value(ws['G31'])
+sheet['AC27'] = 380
+sheet['I53'] = get_cell_value(ws['G21'])
+sheet['AC55'] = '22/12/2024'
 
 
 # sheet['A2'] = 'João'
