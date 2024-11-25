@@ -3,8 +3,8 @@ from pathlib import Path
 # Caminhos dos arquivos
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / 'data'
-FORMULARIO_ORIGEM = DATA_DIR / '../data/Dados do cliente (USAR PARA PREENCHER).xlsx'
-FORMULARIO_DESTINO = DATA_DIR / '../data/Formulário Vazio (DEVE SER PREENCHIDO).xlsx'
+FORMULARIO_ORIGEM = DATA_DIR / '../data/origem.xlsx'
+FORMULARIO_DESTINO = DATA_DIR / '../data/destino.xlsx'
 # Mapeamento de células (origem: nome do campo)
 MAPEAMENTO = {
     'B7': 'Número do Cliente',

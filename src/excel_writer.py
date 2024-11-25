@@ -35,6 +35,8 @@ sheet['P29'] = get_cell_value(ws['G31'])
 sheet['AC27'] = 380
 sheet['I53'] = get_cell_value(ws['G21'])
 sheet['F29'] = get_cell_value(ws['AD31'])
+sheet['AE25'] = get_cell_value(ws['P13'])
+sheet['U55'] = 380
 sheet['AC55'] = '22/12/2024'
 
 
@@ -47,4 +49,4 @@ sheet['AC55'] = '22/12/2024'
 # sheet['C3'] = 'Rio de Janeiro'
 
 # Salvando a planilha
-workbook.save('planilha_destino_atualizada.xlsx')
+workbook.save('resultado.xlsx')
